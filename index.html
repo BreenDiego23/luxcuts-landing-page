@@ -1,294 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lux Cuts Hillcrest — Premium Barbershop</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lux Cuts Hillcrest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <main class="landing-page">
+    <section class="hero">
+      <img
+        class="logo"
+        src="images/LuxCuts_Logo_BlackOnWhite.png"
+        alt="Lux Cuts Hillcrest logo">
 
-<!-- NAV -->
-<nav id="nav">
-  <a href="#" class="nav-logo">
-    <img src="images/LuxCuts_Logo_Transparent_WhiteLogo.png" alt="Nav Logo">
-  </a>  
-  <ul class="nav-links" id="navLinks">
-    <li><a href="#services">Services</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#gallery">Gallery</a></li>
-    <li><a href="#location">Location</a></li>
-    <li><a href="#book" class="nav-cta">Book Now</a></li>
-  </ul>
-  <button class="nav-toggle" id="navToggle" aria-label="Menu">
-    <span></span><span></span><span></span>
-  </button>
-</nav>
-
-<!-- HERO -->
- <section class="hero" id="hero">
-    <!-- TODO: Replace Hero Background Image -->
-    <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <p class="hero-eyebrow">Hillcrest · San Diego · Est. 2024</p>
-    <h1 class="hero-h1">More Than<br><span class="accent">A Haircut.</span></h1>
-    <p class="hero-sub">Luxury is in the experience. Confidence is in the cut.</p>
-    <div class="hero-actions">
-      <a href="#book" class="btn btn-gold">Book Your Appointment</a>
-      <a href="#services" class="btn btn-outline">Our Services</a>
-    </div>
-    <div class="hero-badge">
-      <div class="badge-item">
-        <span class="badge-num">3</span>
-        <span class="badge-label">Expert Barbers</span>
-      </div>
-      <div class="badge-item">
-        <span class="badge-num">5&#9733;</span>
-        <span class="badge-label">Rated Experience</span>
-      </div>
-      <div class="badge-item">
-        <span class="badge-num">$29</span>
-        <span class="badge-label">Starting From</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- SERVICES -->
-<div class="services-strip" id="services">
-  <div class="container">
-    <div class="service-item reveal">
-      <div class="service-icon">&#9986;</div>
-      <div class="service-name">Precision Cut</div>
-      <div class="service-desc">Consultation, cut, shampoo &amp; style. The full experience, every visit.</div>
-      <div class="service-price">from $29</div>
-    </div>
-    <div class="service-item reveal">
-      <div class="service-icon">&#9672;</div>
-      <div class="service-name">Gray Blending</div>
-      <div class="service-desc">Seamless specialist blends. Premium technique, premium result.</div>
-      <div class="service-price">from $55</div>
-    </div>
-    <div class="service-item reveal">
-      <div class="service-icon">&#9675;</div>
-      <div class="service-name">Facial Treatment</div>
-      <div class="service-desc">Premium skin care alongside your cut. Elevated grooming, every time.</div>
-      <div class="service-price">from $45</div>
-    </div>
-    <div class="service-item reveal">
-      <div class="service-icon">&#9730;</div>
-      <div class="service-name">Shampoo &amp; Style</div>
-      <div class="service-desc">Tea tree shampoo with every visit. Leave refreshed and renewed.</div>
-      <div class="service-price">Included</div>
-    </div>
-  </div>
-</div>
-
-<!-- ABOUT -->
-<section id="about">
-  <div class="container">
-    <div class="about-split">
-      <div class="about-img-wrap reveal">
-        <img
-          class="about-img-main"
-          src="images/placeholder-main.jpg"
-          alt="Main About Image">
-
-        <img
-          class="about-img-accent"
-          src="images/placeholder-accent.jpg"
-          alt="Accent About Image">
-        <div class="about-tag">Est. 2024</div>
-      </div>
-      <div class="reveal">
-        <p class="section-label">About Lux Cuts</p>
-        <div class="gold-line left"></div>
-        <h2 class="section-h2">Skill. Culture.<br><span class="accent">Community.</span></h2>
-        <p class="section-body">Lux Cuts Hillcrest isn't just a barbershop — it's a neighborhood institution. Right next to AWOL Bar, across from 7-Eleven, at the entrance of the Sunday Farmers Market. We built a space where premium grooming meets real community.</p>
-        <div class="quote-block quote-spacing">
-          <p class="quote-text">"80% connection. 20% haircut."</p>
-          <p class="quote-attr">— Alex, Founder</p>
-        </div>
-        <p class="section-body about-text-spacing">Three expert barbers. Walk-ins welcome. Men, women, everyone — all are always welcome here.</p>
-        <a href="#book" class="btn btn-gold about-button">
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- BOOKING -->
-<section class="booking-section" id="book">
-  <div class="container">
-    <div class="booking-grid">
-      <div class="reveal">
-        <p class="section-label">Book Your Appointment</p>
-        <div class="gold-line left"></div>
-        <h2 class="section-h2">Multiple Ways<br>to <span class="accent">Book.</span></h2>
-        <p class="section-body">Scan the QR, tap the link, DM us, call, or just walk in. However works for you, we'll get you in the chair.</p>
-        <div class="booking-methods">
-          <a
-            class="booking-method"
-            href="https://vagaro.com"
-            target="_blank"
-            rel="noopener noreferrer">
-            <div class="method-icon">&#128197;</div>
-            <div class="method-label">Vagaro</div>
-            <div class="method-sub">Book online instantly</div>
-          </a>
-          <a class="booking-method" href="sms:6195816464">
-            <div class="method-icon">&#128172;</div>
-            <div class="method-label">Text Us</div>
-            <div class="method-sub">(619) 581-6464</div>
-          </a>
-          <a
-            class="booking-method"
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer">
-            <div class="method-icon">&#128247;</div>
-            <div class="method-label">DM Us</div>
-            <div class="method-sub">@luxcuts.hillcrest</div>
-          </a>
-          <div class="booking-method">
-            <div class="method-icon">&#128694;</div>
-            <div class="method-label">Walk In</div>
-            <div class="method-sub">Always welcome</div>
-          </div>
-        </div>
-      </div>
-      <div class="book-panel reveal">
-        <h3 class="book-panel-h">Scan to Book</h3>
-        <p class="book-panel-sub">Quick &amp; easy — under 60 seconds</p>
-        <div class="qr-placeholder">
-          &#91;QR CODE&#93;<br><br>Replace with<br>Vagaro QR image
-        </div>
-        <a href="https://vagaro.com"
-          target="_blank"
-          class="btn btn-gold booking-button">
-          Book on Vagaro &rarr;
-        </a>
-        <div class="book-panel-info">
-          <strong>Walk-ins always welcome</strong><br>
-          1475 University Ave &middot; Hillcrest<br>
-          Mon&ndash;Sat &middot; (619) 581-6464
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- GALLERY -->
-<section class="gallery-section" id="gallery">
-  <div class="container gallery-heading">
-    <p class="section-label reveal">The Space</p>
-    <div class="gold-line reveal"></div>
-    <h2 class="section-h2 reveal">The Vibe.<br><span class="accent">The Culture.</span></h2>
-  </div>
-  <div class="gallery-grid">
-    <div class="gallery-item reveal">
-      <!-- TODO: Gallery Image 1 -->
-      <div class="gallery-overlay"></div>
-    </div>
-    <div class="gallery-item reveal">
-      <!-- TODO: Gallery Image 2 -->
-      <div class="gallery-overlay"></div>
-    </div>
-    <div class="gallery-item reveal">
-      <!-- TODO: Gallery Image 3 -->
-      <div class="gallery-overlay"></div>
-    </div>
-    <div class="gallery-item reveal">
-      <!-- TODO: Gallery Image  -->
-      <div class="gallery-overlay"></div>
-    </div>
-    <div class="gallery-item gallery-placeholder reveal">
-      <p class="gallery-placeholder-title">Add Photo<br>Here</p>
-
-      <p class="gallery-placeholder-text">
-        Replace with transformation, barber portrait, or service shot
+      <p class="eyebrow">Hillcrest · San Diego</p>
+      <h1>Lux Cuts Hillcrest</h1>
+      <p class="intro">
+        A clean, welcoming barbershop in the heart of Hillcrest.
+        Book your appointment online through Vagaro.
       </p>
-    </div>
-  </div>
-</section>
 
-<!-- LOCATION BANNER -->
-<div id="location" class="location-section">
-  <div class="location-banner">
-    <div class="location-inner">
-      <div class="location-items">
-        <div>
-          <span class="loc-label">Address</span>
-          <span class="loc-val">1475 University Ave, Hillcrest</span>
-        </div>
-        <div>
-          <span class="loc-label">Phone</span>
-          <span class="loc-val">(619) 581-6464</span>
-        </div>
-        <div>
-          <span class="loc-label">Hours</span>
-          <span class="loc-val">Mon&ndash;Sat &middot; Walk-ins Welcome</span>
-        </div>
-        <div>
-          <span class="loc-label">Landmark</span>
-          <span class="loc-val">Next to AWOL Bar</span>
-        </div>
-      </div>
-      <a href="https://maps.google.com/?q=1475+University+Ave+San+Diego" target="_blank" class="btn btn-dark">Get Directions &nearr;</a>
-    </div>
-  </div>
-</div>
+      <a
+        class="booking-button"
+        href="https://vagaro.com"
+        target="_blank"
+        rel="noopener noreferrer">
+        Book on Vagaro
+      </a>
+    </section>
 
-<!-- FOOTER -->
-<footer>
-  <div class="container">
-    <div class="footer-top">
-      <div class="footer-logo">
-        <!-- TODO: Footer -->
-        <p>Premium barbershop in the heart of Hillcrest, San Diego.<br>Good cuts. Good people. Amazing vibes.</p>
-      </div>
-      <div class="footer-col">
-        <h4>Services</h4>
-        <ul>
-          <li><a href="#services">Precision Cut</a></li>
-          <li><a href="#services">Gray Blending</a></li>
-          <li><a href="#services">Facial Treatment</a></li>
-          <li><a href="#services">Shampoo &amp; Style</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Visit Us</h4>
-        <ul>
-          <li><a href="#">1475 University Ave</a></li>
-          <li><a href="#">Hillcrest, San Diego</a></li>
-          <li><a href="tel:6195816464">(619) 581-6464</a></li>
-          <li><a href="#">Walk-ins Welcome</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Book</h4>
-        <ul>
-          <li><a href="https://vagaro.com" target="_blank">Book on Vagaro</a></li>
-          <li><a href="sms:6195816464">Text to Book</a></li>
-          <li><a href="https://instagram.com" target="_blank">DM on Instagram</a></li>
-          <li><a href="#book">All Booking Options</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2025 Lux Cuts Hillcrest &middot; All rights reserved</p>
-      <div class="footer-social">
-        <a href="https://instagram.com" target="_blank" class="social-link" aria-label="Instagram">&#9998;</a>
-        <a href="https://tiktok.com" target="_blank" class="social-link" aria-label="TikTok">&#9670;</a>
-        <a href="https://vagaro.com" target="_blank" class="social-link" aria-label="Vagaro">&#8853;</a>
-      </div>
-    </div>
-  </div>
-</footer>
+    <section class="staff-section" aria-labelledby="staff-heading">
+      <p class="section-label">Our Staff</p>
+      <h2 id="staff-heading">Meet the team</h2>
 
-<script src="js/main.js"></script>>
+      <div class="staff-grid">
+        <article class="staff-card">
+          <img src="images/Noah.jpeg" alt="Noah from Lux Cuts Hillcrest">
+          <h3>Noah</h3>
+        </article>
 
+        <article class="staff-card">
+          <img src="images/Christine Jiaconnie.jpeg" alt="Christine from Lux Cuts Hillcrest">
+          <h3>Christine</h3>
+        </article>
+      </div>
+    </section>
 
+    <section class="booking-section" aria-label="Booking">
+      <h2>Ready to book?</h2>
+      <p>Use the link below to view availability and schedule your visit.</p>
+
+      <a
+        class="booking-button"
+        href="https://vagaro.com"
+        target="_blank"
+        rel="noopener noreferrer">
+        Book on Vagaro
+      </a>
+    </section>
+  </main>
 </body>
 </html>
